@@ -36,7 +36,7 @@ public class PhysExamSearch {
 	
 	public static void main(String[] args) {
 		try (Scanner stdIn = new Scanner(System.in)) {
-			PhyscData[] x = {
+			PhyscData[] x = { //配列の要素は身長順でなければならない
 					new PhyscData("永田充輝", 162, 0.3),
 					new PhyscData("永田明音", 162, 0.3),
 					new PhyscData("永田桧寄", 162, 0.3),

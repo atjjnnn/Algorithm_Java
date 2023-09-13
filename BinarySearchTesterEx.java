@@ -1,5 +1,6 @@
 package Src;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class BinarySearchTesterEx {
@@ -26,7 +27,7 @@ public class BinarySearchTesterEx {
 		System.out.println("探す値:");
 		int ky = stdIn.nextInt();
 		
-		int idx = Array.binarySearch(x, ky); //配列xから値がkyの要素を探索
+		int idx = Arrays.binarySearch(x, ky); //配列xから値がkyの要素を探索
 		
 		if (idx < 0) {
 			System.out.println("その値の要素は存在しません。");

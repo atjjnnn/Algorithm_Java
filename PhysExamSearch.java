@@ -12,6 +12,7 @@ public class PhysExamSearch {
 		private int height; //身長
 		private double vision; //視力
 		
+		//コンストラクタ
 		public PhyscData(String name, int height, double vision) {
 			this.name = name;
 			this.height = height;

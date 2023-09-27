@@ -8,7 +8,7 @@ public class IntStackTester {
 	public static void main(String[] args) {
 		Scanner stdIn = new Scanner(System.in);
 		IntStack s = new IntStack(64); //最大64個プッシュできるスタック
-		
+		                                                                                                                                                                                             
 		while(true) {
 			System.out.printf("現在のデータ数: %d / %d ¥n", s.size(), s.getCapacity());
 			System.out.println("(1)プッシュ (2)ポップ (3)ピーク (4)ダンプ (0)終了");
